@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+/* Section 1 */
+.section1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#bgVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: transparent;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.gradient-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: linear-gradient(45deg, #3F5EFB, #FC466B);
+  color: white;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+    padding: 16px 40px;      /* More space inside button */
+    font-size: 1.2em;         /* Slightly larger text */
+    border-radius: 10px;      /* Optional: smoother round corners */
+  
+  
+}
+
+/* Section 2 */
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 50px;
+  background-color: #0e0e17;
+  flex-wrap: wrap;
+}
+
+/* Section 2 Heading 1 (h1) - White color */
+.section2 h1 {
+  color: white;
+  font-size: 3.7em; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Adjust margin */
+}
+
+.section2 h5 {
+  color: rgb(194, 191, 191);
+  font-size: 1.4em; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Adjust margin */
+  font-weight: 200  ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section 2 Heading 3 (h3) - Pink color */
+.section2 h3 {
+  color: #F8438F;
+  font-size: 1em; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Adjust margin */
+}
+
+.text-content {
+  max-width: 500px;
+}
+
+.text-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.image-content img {
+  max-width: 450px;
+  border-radius: 20px;
+}
+
+.section7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 50px;
+  background: linear-gradient(45deg, #2d2d56, #0e0e17);
+  text-align: center;
+  gap: 40px;
+}
+
+
+.section7 h1 {
+  font-size: 5em;
+  margin-bottom: 10px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+}
+
+
+
+
+.section-title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-content img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+
+
+.section-subtitle {
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 40px;
+}
+
+.section-description {
+  font-size: 1.25rem;
+  color: #f1f1f1;
+  max-width: 800px;
+}
+
+
+/* Section 3 */
+.section3 {
+  background: #141e30;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+.contact-form button {
+  margin-top: 10px;
+}
+
+/* Footer Section */
+.section4 {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 7em;
+  margin-bottom: 10px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+}
+
+.section3 h2 {
+  font-size: 5em;
+  margin-bottom: 10px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  color: wheat;
+}
+
+.hero-content h4 {
+  font-size: 1.6em; /* Still large but balanced */
+  margin-bottom: 10px;
+  color: #d6dbdf; /* Change to your desired color code */
+  font-family: 'Sans-serif', sans-serif;
+}
+
+.section4 h2 {
+  font-size: 3em; /* Still large but balanced */
+  margin-bottom: 10px;
+  color: #d6dbdf; /* Change to your desired color code */
+  font-family: 'Sans-serif', sans-serif;
+}
+
+.navbar img {
+  height: 55px;  /* Adjust logo size as needed */
+  width: auto;   /* Maintain aspect ratio */
+}
+
+
+.section4 {
+  background: linear-gradient(to right, #0f0f2d, #1e1e4a);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-left h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.footer-right a img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  filter: invert(1);
+  transition: transform 0.2s ease;
+}
+
+.footer-right a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-middle h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.footer-middle p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+hr {
+  margin: 20px auto;
+  border: 0;
+  height: 1px;
+  width: 90%;
+  background-color: #444;
+}
+.footer-left {
+  padding-left: 50px; /* You can increase this if needed */
+}
+.footer-right {
+  padding-left: 50px; /* You can increase this if needed */
+}
+
+.footer-left h1 {
+  padding-left: 40px;     /* Push away from left edge */
+  font-size: 36px;        /* Make text bigger */
+  font-weight: 800;       /* Bold and strong */
+  color: white;           /* Ensure it's clearly visible */
+  margin: 0;              /* Remove any weird spacing */
+}
+
